@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Ocean Chemicals — Premium Water Treatment Chemistry, UAE</title>
+  
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  
+  <meta name="description" content="Blue Ocean For Chemicals Manufacturing LLC. decades of expertise in chemical manufacturing and water treatment. Reverse Osmosis, Chilled Water, Cooling Water, Boiler, Swimming Pool and Portable Water treatment chemicals. Ajman, UAE.">
+  
+  <meta property="og:title" content="Blue Ocean Chemicals">
+  <meta property="og:description" content="Manufactured in Ajman, UAE, Reverse Osmosis, Cooling, Chilled, Boiler, Pool & Portable water chemistry.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blueoceanchem.com">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blue Ocean Chemicals — Premium Water Treatment">
+  <meta name="twitter:description" content="Manufactured in Ajman, UAE — Reverse Osmosis, Cooling, Chilled, Boiler, Pool & Portable water chemistry.">
+  <meta name="twitter:image" content="assets/logo.png">
+  
+  <meta name="theme-color" content="#275A9C">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --ink:#0B0A2A;
+      --indigo:#353571;
+      --deep:#275A9C;
+      --ocean:#1674B7;
+      --cyan:#189BCE;
+      --sky:#EAF6FC;
+      --sky-dim:#D4EAF5;
+      --foam:#F7FBFD;
+      --foam-dim:#E9F3FA;
+      --steel:#5C7290;
+      --brass:#C9A55C;
+      --brass-dim:#9C8246;
+      --white:#FFFFFF;
+      --ink-soft:rgba(11,10,42,0.7);
+      --ink-faint:rgba(11,10,42,0.45);
+      --line:rgba(11,10,42,0.1);
+
+      --display:'Fraunces', serif;
+      --body:'Space Grotesk', sans-serif;
+      --mono:'JetBrains Mono', monospace;
+
+      --maxw:1320px;
+      --pad:clamp(1.5rem, 4vw, 4.5rem);
+
+      --ease:cubic-bezier(.16,1,.3,1);
+      --ease-soft:cubic-bezier(.22,.61,.36,1);
+      --shadow-glow:0 30px 70px -20px rgba(39,90,156,0.25);
+    }
+    *{box-sizing:border-box; margin:0; padding:0;}
+    html{scroll-behavior:smooth;}
+    body{
+      margin:0; background:var(--sky); color:var(--ink);
+      font-family:var(--body); -webkit-font-smoothing:antialiased;
+      overflow-x:hidden;
+    }
+    img{max-width:100%; display:block;}
+    a{color:inherit; text-decoration:none;}
+    section{position:relative;}
+    .wrap{max-width:var(--maxw); margin:0 auto; padding-left:var(--pad); padding-right:var(--pad);}
+
+    ::selection{background:var(--cyan); color:var(--ink);}
+    :focus-visible{outline:2px solid var(--brass); outline-offset:3px; border-radius:2px;}
+
+    h1,h2,h3,h4{font-family:var(--display); margin:0; letter-spacing:-0.01em; color:var(--ink);}
+    h1{font-weight:500;}
+    h2{font-weight:500;}
+
+    .eyebrow{
+      font-family:var(--mono); font-size:0.7rem; letter-spacing:0.18em;
+      text-transform:uppercase; color:var(--brass-dim);
+      display:flex; align-items:center; gap:0.6em;
+    }
+    .eyebrow::before{content:''; width:20px; height:2px; background:var(--brass); display:inline-block; border-radius:2px;}
+    .eyebrow.on-dark{color:var(--cyan);}
+    .eyebrow.on-dark::before{background:var(--cyan);}
+
+    p{line-height:1.7; color:var(--ink-soft);}
+
+    .ph{position:relative; overflow:hidden; background:linear-gradient(145deg, var(--sky-dim), var(--sky));}
+    .ph img{width:100%; height:100%; object-fit:cover; display:block; opacity:0; transition:opacity 1.2s var(--ease);}
+    .ph img.loaded{opacity:1;}
+    .ph.fallback img{display:none;}
+
+    .nav{
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:1rem var(--pad);
+      background:linear-gradient(180deg, rgba(7,13,46,0.55) 0%, rgba(7,13,46,0.28) 70%, rgba(7,13,46,0) 100%);
+      backdrop-filter:blur(6px);
+      -webkit-backdrop-filter:blur(6px);
+      border-bottom:1px solid transparent;
+      transition:background .5s var(--ease), border-color .5s, backdrop-filter .5s, box-shadow .5s;
+    }
+    .nav.scrolled{
+      background:rgba(234,246,252,0.92);
+      backdrop-filter:blur(18px) saturate(180%);
+      -webkit-backdrop-filter:blur(18px) saturate(180%);
+      border-bottom:1px solid var(--line);
+      box-shadow:0 4px 30px rgba(0,0,0,0.04);
+    }
+    .nav.scrolled .nav-brand .sub{color:var(--ink-faint);}
+    .nav-brand{
+      display:flex; align-items:center; gap:0.65rem;
+      font-family:var(--display); font-weight:500; font-size:1.05rem;
+      color:var(--white);
+      transition:color .4s;
+    }
+    .nav-brand img{height:46px; width:auto; object-fit:contain;}
+.nav-brand{position:relative;}
+.nav-logo{position:relative; transition:opacity .4s var(--ease);}
+.nav-logo-color{position:absolute; left:0; top:0; opacity:0;}
+.nav-logo-white{opacity:1;}
+.nav.scrolled .nav-logo-white{opacity:0;}
+.nav.scrolled .nav-logo-color{opacity:1;}
+    .nav-brand .sub{
+      font-family:var(--mono); font-size:0.55rem; letter-spacing:0.16em;
+      color:rgba(247,249,252,0.7); font-weight:500; text-transform:uppercase;
+      transition:color .4s;
+    }
+
+    .nav-links{display:flex; align-items:center; gap:2rem; font-size:0.85rem; font-weight:500;}
+    .nav-links a{
+      color:rgba(247,249,252,0.85); position:relative; padding:0.25rem 0;
+      transition:color .25s;
+    }
+    .nav-links a::after{
+      content:''; position:absolute; left:0; right:100%; bottom:-2px;
+      height:2px; background:var(--brass); transition:right .3s var(--ease);
+      border-radius:2px;
+    }
+    .nav-links a:hover{color:var(--white);}
+    .nav.scrolled .nav-links a{color:var(--ink);}
+    .nav.scrolled .nav-links a:hover{color:var(--deep);}
+    .nav-links a:hover::after{right:0;}
+
+    .nav-cta{
+      font-family:var(--body); font-size:0.9rem; font-weight:600;
+      background:linear-gradient(135deg, #E2C07F 0%, var(--brass) 55%, #B8924A 100%);
+      color:var(--ink) !important;
+      padding:0.7rem 1.6rem; border-radius:40px;
+      transition:background .25s, transform .25s, box-shadow .3s;
+      white-space:nowrap; letter-spacing:0.02em;
+      box-shadow:0 6px 20px rgba(201,165,92,0.35), inset 0 1px 0 rgba(255,255,255,0.4);
+    }
+    .nav-cta::after{display:none;}
+    .nav-cta:hover{background:linear-gradient(135deg, #EACB91 0%, #DAB876 55%, #C49F5C 100%); transform:translateY(-2px); box-shadow:0 12px 30px rgba(201,165,92,0.45), inset 0 1px 0 rgba(255,255,255,0.5);}
+    .nav.scrolled .nav-cta{color:var(--ink) !important;}
+
+    .nav-toggle{display:none; background:none; border:none; cursor:pointer; padding:0.4rem; z-index:101;}
+    .nav-toggle span{display:block; width:24px; height:2px; background:var(--white); margin:5px 0; transition:.3s; border-radius:2px;}
+    .nav.scrolled .nav-toggle span{background:var(--ink);}
+
+    @media (max-width: 880px){
+      .nav-links{
+        position:fixed; top:0; right:0; height:100vh; width:min(80vw,340px);
+        background:var(--ink); flex-direction:column; justify-content:center;
+        align-items:flex-start; gap:1.6rem; padding:2.5rem 2.8rem;
+        transform:translateX(100%); transition:transform .5s var(--ease);
+        box-shadow:-10px 0 40px rgba(0,0,0,0.25);
+      }
+      .nav-links.open{transform:translateX(0);}
+      .nav-links a{color:rgba(247,249,252,0.8); font-size:1.1rem;}
+      .nav-links a:hover{color:var(--white);}
+      .nav-cta{order:2; align-self:flex-start;}
+      .nav-toggle{display:block;}
+    }
+
+    .hero{
+      min-height:100vh; display:flex; align-items:flex-end; position:relative;
+      overflow:hidden; color:var(--white);
+    }
+    .hero .ph{position:absolute; inset:0; z-index:0;}
+    .hero .ph img{transform:scale(1.1); transition:opacity 1.6s var(--ease), transform 12s var(--ease-soft);}
+    .hero .ph img.loaded{transform:scale(1);}
+    .hero-scrim{
+      position:absolute; inset:0; z-index:1;
+      background:
+        linear-gradient(180deg, rgba(7,13,46,0.60) 0%, rgba(7,13,46,0.30) 40%, rgba(7,13,46,0.85) 100%),
+        linear-gradient(90deg, rgba(7,13,46,0.60) 0%, transparent 60%);
+    }
+    .hero-inner{position:relative; z-index:2; width:100%; padding-bottom:6rem; padding-top:10rem;}
+    .hero-eyebrow{color:var(--cyan); margin-bottom:1.6rem;}
+    .hero-eyebrow::before{background:var(--cyan);}
+    .hero h1{
+      font-size:clamp(2.8rem, 6.5vw, 5.5rem); line-height:1.02;
+      font-weight:500; max-width:48rem; color:var(--white);
+    }
+    .hero h1 em{font-style:italic; font-weight:400; color:var(--cyan);}
+    .hero p.lede{
+      margin-top:1.8rem; font-size:1.2rem; max-width:36rem;
+      color:rgba(247,249,252,0.8); line-height:1.6;
+    }
+    .hero-actions{display:flex; gap:1.2rem; margin-top:2.8rem; flex-wrap:wrap;}
+    .btn{
+      display:inline-flex; align-items:center; gap:0.6rem;
+      font-family:var(--body); font-weight:600; font-size:0.95rem;
+      padding:0.9rem 2rem; border-radius:40px; cursor:pointer;
+      transition:transform .3s var(--ease), box-shadow .3s var(--ease), background .25s;
+      border:1px solid transparent;
+    }
+    .btn-primary{
+      background:linear-gradient(135deg, #E2C07F 0%, var(--brass) 55%, #B8924A 100%);
+      color:var(--ink);
+      box-shadow:0 8px 28px rgba(201,165,92,0.4), inset 0 1px 0 rgba(255,255,255,0.4);
+    }
+    .btn-primary:hover{
+      background:linear-gradient(135deg, #EACB91 0%, #DAB876 55%, #C49F5C 100%);
+      transform:translateY(-3px);
+      box-shadow:0 18px 40px rgba(201,165,92,0.45), inset 0 1px 0 rgba(255,255,255,0.5);
+    }
+    .btn-ghost{background:rgba(255,255,255,0.06); color:var(--white); border-color:rgba(247,249,252,0.3); backdrop-filter:blur(4px);}
+    .btn-ghost:hover{border-color:var(--white); background:rgba(255,255,255,0.12); transform:translateY(-3px);}
+    .btn svg{width:16px; height:16px;}
+
+    .hero-scroll-cue{
+      position:absolute; bottom:2.5rem; left:var(--pad); z-index:2;
+      display:flex; align-items:center; gap:0.8rem;
+      font-family:var(--mono); font-size:0.7rem; letter-spacing:0.12em;
+      color:rgba(247,249,252,0.5); text-transform:uppercase;
+    }
+    .hero-scroll-cue .line{width:1px; height:32px; background:rgba(247,249,252,0.2); position:relative; overflow:hidden;}
+    .hero-scroll-cue .line::after{
+      content:''; position:absolute; top:0; left:0; width:100%; height:40%;
+      background:var(--cyan); animation:scrollcue 2.4s ease-in-out infinite;
+      border-radius:2px;
+    }
+    @keyframes scrollcue{0%{transform:translateY(-100%);}100%{transform:translateY(250%);}}
+    @media (max-width:700px){.hero-inner{padding-bottom:4rem;} .hero-scroll-cue{display:none;}}
+
+    .statement{
+      background:var(--foam); padding:7rem 0; border-bottom:1px solid var(--line);
+    }
+    .statement .wrap{max-width:1000px;}
+    .statement blockquote{
+      margin:0; font-family:var(--display); font-style:italic; font-weight:400;
+      font-size:clamp(1.6rem, 3.2vw, 2.6rem); line-height:1.45; color:var(--ink);
+    }
+    .statement .attrib{
+      margin-top:2.2rem; font-family:var(--mono); font-size:0.78rem;
+      letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-faint);
+    }
+    .statement .word{display:inline-block; opacity:0.2; transition:opacity .7s var(--ease);}
+    .statement .word.lit{opacity:1;}
+
+    .strip{
+      background:var(--ink); padding:1.2rem 0; overflow:hidden; white-space:nowrap;
+      border-top:1px solid rgba(255,255,255,0.05);
+    }
+    .strip-track{display:inline-flex; animation:marquee 40s linear infinite;}
+    @keyframes marquee{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+    .strip-item{
+      font-family:var(--mono); font-size:0.78rem; letter-spacing:0.06em;
+      color:rgba(247,249,252,0.55); padding:0 2.4rem;
+      display:inline-flex; align-items:center; gap:0.7rem; text-transform:uppercase;
+    }
+    .strip-item::before{content:'\25C6'; color:var(--brass); font-size:0.5rem;}
+
+    .sec-head{max-width:44rem; margin-bottom:3.5rem;}
+    .sec-head h2{font-size:clamp(2rem, 3.8vw, 3rem); margin-top:0.9rem; line-height:1.1;}
+    .sec-pad{padding:7rem 0;}
+    @media (max-width:700px){.sec-pad{padding:4.5rem 0;} .statement{padding:4.5rem 0;}}
+
+    .scene{
+      position:relative; min-height:92vh; display:flex; align-items:center;
+      overflow:hidden; color:var(--white);
+    }
+    .scene .ph{position:absolute; inset:0; z-index:0;}
+    .scene .ph img{transform:scale(1.15); transition:opacity 1.2s var(--ease); will-change:transform;}
+    .scene .ph img.loaded{transform:scale(1.15);}
+    .scene-scrim{
+      position:absolute; inset:0; z-index:1;
+      background:linear-gradient(100deg, rgba(7,13,46,0.92) 0%, rgba(7,13,46,0.60) 45%, rgba(7,13,46,0.2) 75%);
+    }
+    .scene.align-right .scene-scrim{
+      background:linear-gradient(260deg, rgba(7,13,46,0.92) 0%, rgba(7,13,46,0.60) 45%, rgba(7,13,46,0.2) 75%);
+    }
+    .scene-inner{position:relative; z-index:2; width:100%; padding:5rem 0;}
+    .scene-content{max-width:36rem;}
+    .scene.align-right .scene-content{margin-left:auto;}
+    .scene .eyebrow{margin-bottom:1.2rem;}
+    .scene h3{
+      font-size:clamp(2.1rem, 3.8vw, 3.2rem); font-weight:500; line-height:1.08; color:var(--white);
+    }
+    .scene p{margin-top:1.3rem; font-size:1.05rem; color:rgba(247,249,252,0.8); max-width:30rem;}
+    .scene-tags{display:flex; gap:0.6rem; margin-top:2rem; flex-wrap:wrap;}
+    .scene-tag{
+      font-family:var(--mono); font-size:0.65rem; letter-spacing:0.05em; text-transform:uppercase;
+      border:1px solid rgba(247,249,252,0.25); color:rgba(247,249,252,0.85);
+      padding:0.4rem 0.9rem; border-radius:20px; backdrop-filter:blur(4px);
+      background:rgba(255,255,255,0.04);
+    }
+    .scene-index{
+      position:absolute; top:2.8rem; right:var(--pad); z-index:2;
+      font-family:var(--mono); font-size:0.8rem; color:rgba(247,249,252,0.4);
+      letter-spacing:0.05em;
+    }
+    .scene.align-right .scene-index{right:auto; left:var(--pad);}
+    @media (max-width:780px){
+      .scene{min-height:78vh;}
+      .scene-content,.scene.align-right .scene-content{max-width:100%; margin-left:0;}
+      .scene-scrim,.scene.align-right .scene-scrim{
+        background:linear-gradient(180deg, rgba(7,13,46,0.55) 0%, rgba(7,13,46,0.88) 75%);
+      }
+    }
+
+    .segments{
+      display:grid; grid-template-columns:repeat(6,1fr); gap:1px;
+      background:var(--line); border-radius:16px; overflow:hidden;
+      box-shadow:var(--shadow-glow);
+    }
+    .segment{
+      background:var(--white); padding:2.2rem 1.4rem;
+      display:flex; flex-direction:column; gap:1rem; min-height:300px;
+      transition:background .3s, transform .3s;
+    }
+    .segment:hover{background:var(--foam-dim); transform:translateY(-2px);}
+    .segment .ico{width:38px; height:38px; color:var(--ocean);}
+    .segment .ico svg{width:100%; height:100%;}
+    .segment h4{font-size:1rem; font-weight:600; font-family:var(--body); line-height:1.2;}
+    .segment p{font-size:0.83rem; margin:0; flex-grow:1;}
+    .segment .tag{
+      font-family:var(--mono); font-size:0.6rem; letter-spacing:0.05em; text-transform:uppercase;
+      color:var(--brass-dim); display:flex; align-items:center; gap:0.4em;
+      padding-top:0.8rem; border-top:1px solid var(--line);
+    }
+    @media (max-width:1200px){.segments{grid-template-columns:repeat(3,1fr);}}
+    @media (max-width:720px){.segments{grid-template-columns:repeat(2,1fr);}}
+    @media (max-width:480px){.segments{grid-template-columns:1fr;}}
+
+    .process{background:var(--ink); color:var(--foam); padding:7rem 0; position:relative; overflow:hidden;}
+    .process::before{
+      content:''; position:absolute; inset:0;
+      background-image:linear-gradient(rgba(247,249,252,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(247,249,252,0.04) 1px, transparent 1px);
+      background-size:56px 56px;
+    }
+    .process .wrap{position:relative; z-index:2;}
+    .process .sec-head h2{color:var(--foam);}
+    .process .sec-head p{color:rgba(247,249,252,0.5);}
+
+    .flow-svg-wrap{width:100%; margin-top:2rem;}
+    .flow-svg{width:100%; height:auto; display:block; overflow:visible;}
+    .flow-path{fill:none; stroke:rgba(247,249,252,0.12); stroke-width:2.5;}
+    .flow-path-anim{fill:none; stroke:var(--cyan); stroke-width:2.5; stroke-dasharray:8 1400; stroke-dashoffset:1400;}
+    .flow-path-anim.run{transition:stroke-dashoffset 2.8s var(--ease); stroke-dashoffset:0; stroke-dasharray:1400 1400;}
+    .flow-node{
+      fill:var(--ink); stroke:rgba(247,249,252,0.25); stroke-width:1.8;
+      opacity:0; transform:scale(0.5); transform-origin:center;
+      transition:opacity .5s var(--ease), transform .5s var(--ease);
+    }
+    .flow-node.show{opacity:1; transform:scale(1);}
+    .flow-dot{fill:var(--cyan); opacity:0; transition:opacity .4s;}
+    .flow-dot.show{opacity:1;}
+    .flow-label{
+      font-family:var(--mono); font-size:11px; fill:rgba(247,249,252,0.7);
+      letter-spacing:0.04em; text-transform:uppercase; opacity:0; transition:opacity .5s var(--ease);
+    }
+    .flow-label.show{opacity:1;}
+    .flow-sub{font-family:var(--body); font-size:10px; fill:rgba(247,249,252,0.4); opacity:0; transition:opacity .5s var(--ease);}
+    .flow-sub.show{opacity:1;}
+
+    .ticker-section{border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:3.5rem 0; background:var(--foam);}
+    .ticker-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:2.5rem;}
+    .ticker-cell .v{
+      font-family:var(--display); font-size:2.6rem; font-weight:500; color:var(--ink);
+      display:flex; align-items:baseline; gap:0.3rem;
+    }
+    .ticker-cell .v small{font-size:1rem; color:var(--ink-faint); font-weight:400; font-family:var(--body);}
+    .ticker-cell .l{font-size:0.85rem; color:var(--ink-soft); margin-top:0.6rem; line-height:1.4;}
+    @media (max-width:760px){.ticker-grid{grid-template-columns:repeat(2,1fr); gap:2rem 1.5rem;}}
+
+    .why-grid{display:grid; grid-template-columns:0.9fr 1.1fr; gap:4rem; align-items:start;}
+    .why-item{
+      display:grid; grid-template-columns:3.2rem 1fr; gap:1.2rem; padding:1.8rem 0;
+      border-top:1px solid var(--line);
+    }
+    .why-item:last-child{border-bottom:1px solid var(--line);}
+    .why-index{font-family:var(--mono); font-size:0.8rem; color:var(--brass-dim); padding-top:0.2rem;}
+    .why-item h4{font-size:1.08rem; font-weight:600; margin-bottom:0.4rem; font-family:var(--body);}
+    .why-item p{margin:0; font-size:0.92rem;}
+
+    .why-visual{border-radius:16px; overflow:hidden; position:relative; min-height:500px; box-shadow:var(--shadow-glow);}
+    .why-visual .ph{position:absolute; inset:0;}
+    .why-visual-scrim{
+      position:absolute; inset:0; z-index:1;
+      background:linear-gradient(180deg, rgba(7,13,46,0.1) 0%, rgba(7,13,46,0.9) 100%);
+    }
+    .why-visual-content{position:relative; z-index:2; padding:2.6rem; color:var(--foam);}
+    .why-visual h4{color:var(--foam); font-size:1.5rem; max-width:18rem; line-height:1.25; font-weight:500;}
+    .why-visual p{color:rgba(247,249,252,0.65); margin-top:0.8rem; max-width:20rem; font-size:0.9rem;}
+    @media (max-width:900px){.why-grid{grid-template-columns:1fr;} .why-visual{order:-1; min-height:380px;}}
+
+    .industries{display:grid; grid-template-columns:repeat(4,1fr); gap:1.6rem;}
+    #services .industries{
+      display:flex; flex-wrap:wrap; justify-content:center;
+    }
+    #services .industry-card{
+      flex:0 1 calc(25% - 1.2rem);
+      min-width:240px;
+    }
+    .industry-card{
+      border:1px solid var(--line); border-radius:16px; padding:2rem; background:var(--white);
+      transition:border-color .3s, transform .3s, box-shadow .3s;
+      box-shadow:0 4px 12px rgba(0,0,0,0.02);
+    }
+    .industry-card:hover{border-color:var(--ocean); transform:translateY(-6px); box-shadow:0 20px 40px rgba(0,81,153,0.06);}
+    .industry-card .ico{width:30px; height:30px; color:var(--ocean); margin-bottom:1rem;}
+    .industry-card h4{font-size:0.98rem; font-weight:600; font-family:var(--body);}
+    .industry-card p{font-size:0.84rem; margin-top:0.5rem;}
+    @media (max-width:900px){
+      .industries{grid-template-columns:repeat(2,1fr);}
+      #services .industry-card{flex:0 1 calc(50% - 0.8rem);}
+    }
+    @media (max-width:520px){
+      .industries{grid-template-columns:1fr;}
+      #services .industry-card{flex:0 1 100%;}
+    }
+
+    .cta-band{
+      border-radius:20px; overflow:hidden; position:relative;
+      padding:4.5rem clamp(2rem,5vw,4.5rem);
+      display:flex; justify-content:space-between; align-items:center; gap:2rem; flex-wrap:wrap;
+      min-height:280px; box-shadow:var(--shadow-glow);
+    }
+    .cta-band .ph{position:absolute; inset:0; z-index:0;}
+    .cta-band-scrim{
+      position:absolute; inset:0; z-index:1;
+      background:linear-gradient(110deg, rgba(7,13,46,0.92) 10%, rgba(22,36,94,0.78) 55%, rgba(28,127,193,0.55) 100%);
+    }
+    .cta-band h3{color:var(--white); font-size:2rem; max-width:28rem; position:relative; z-index:2; font-weight:500;}
+
+    .contact-grid{display:grid; grid-template-columns:0.85fr 1.15fr; gap:4rem;}
+    .contact-info-item{display:flex; gap:1rem; padding:1.2rem 0; border-top:1px solid var(--line); align-items:flex-start;}
+    .contact-info-item:last-child{border-bottom:1px solid var(--line);}
+    .contact-info-item .ico{width:20px; height:20px; color:var(--brass-dim); margin-top:0.2rem; flex-shrink:0;}
+    .contact-info-item .lbl{font-family:var(--mono); font-size:0.68rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:0.3rem;}
+    .contact-info-item .val{font-size:0.96rem; font-weight:500; color:var(--ink);}
+    .contact-info-item a.val:hover{color:var(--ocean);}
+    .contact-email-list{display:flex; flex-direction:column; gap:0.15rem;}
+    .contact-email-list a{font-size:0.9rem; color:var(--ink); font-weight:450; padding:0.1rem 0;}
+    .contact-email-list a:hover{color:var(--ocean);}
+    .contact-email-list .domain-suffix{font-size:0.78rem; color:var(--ink-faint); margin-top:0.1rem;}
+
+    .form-card{
+      background:var(--white); border:1px solid var(--line); border-radius:20px; padding:2.5rem;
+      box-shadow:var(--shadow-glow);
+    }
+    .form-row{display:grid; grid-template-columns:1fr 1fr; gap:1.1rem;}
+    .field{margin-bottom:1.1rem; display:flex; flex-direction:column; gap:0.4rem;}
+    .field label{font-family:var(--mono); font-size:0.7rem; letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-faint);}
+    .field input,.field select,.field textarea{
+      font-family:var(--body); font-size:0.95rem; color:var(--ink);
+      border:1px solid var(--line); border-radius:10px; padding:0.8rem 1rem;
+      background:var(--foam); transition:border-color .2s, box-shadow .2s; width:100%;
+    }
+    .field textarea{resize:vertical; min-height:100px;}
+    .field input:focus,.field select:focus,.field textarea:focus{
+      outline:none; border-color:var(--ocean); box-shadow:0 0 0 4px rgba(0,81,153,0.08);
+    }
+    .field-honeypot{position:absolute; left:-9999px; opacity:0;}
+    .form-submit{width:100%; justify-content:center; margin-top:0.5rem; border-radius:40px;}
+    .form-submit.btn-primary{background:var(--ink); color:var(--foam); box-shadow:0 8px 24px rgba(11,10,42,0.2);}
+    .form-submit.btn-primary:hover{background:var(--deep);}
+    .form-note{font-size:0.76rem; color:var(--ink-faint); margin-top:0.9rem; text-align:center;}
+    .form-status{
+      font-family:var(--mono); font-size:0.82rem; margin-top:1rem; text-align:center;
+      padding:0.7rem; border-radius:10px; display:none;
+    }
+    .form-status.success{display:block; background:rgba(0,81,153,0.08); color:var(--deep);}
+    .form-status.error{display:block; background:rgba(200,60,60,0.08); color:#A33B3B;}
+    @media (max-width:900px){.contact-grid{grid-template-columns:1fr;} .form-row{grid-template-columns:1fr;}}
+
+    footer{background:var(--ink); color:rgba(247,249,252,0.55); padding:4.5rem 0 2rem;}
+    .foot-top{display:grid; grid-template-columns:1.4fr 1fr 1fr 1.2fr; gap:2.5rem; padding-bottom:3rem; border-bottom:1px solid rgba(247,249,252,0.06);}
+    .foot-brand{display:flex; align-items:center; gap:0.7rem; margin-bottom:1.2rem;}
+    .foot-brand img{height:38px; width:auto;}
+    .foot-brand span{font-family:var(--display); color:var(--foam); font-weight:500; font-size:1rem;}
+    .foot-col h5{font-family:var(--mono); font-size:0.68rem; letter-spacing:0.08em; text-transform:uppercase; color:rgba(247,249,252,0.4); margin-bottom:1rem; font-weight:500;}
+    .foot-col a,.foot-col p{display:block; font-size:0.86rem; color:rgba(247,249,252,0.6); margin-bottom:0.7rem; line-height:1.5;}
+    .foot-col a:hover{color:var(--cyan);}
+    .foot-email-grid{display:grid; grid-template-columns:1fr 1fr; gap:0.2rem 1rem; margin-top:0.3rem;}
+    .foot-email-grid a{font-size:0.82rem; margin-bottom:0.2rem; color:rgba(247,249,252,0.5); font-weight:400;}
+    .foot-email-grid a:hover{color:var(--cyan);}
+    .foot-email-domain{font-size:0.72rem; color:rgba(247,249,252,0.25); margin-top:0.2rem; display:block;}
+    .foot-bottom{display:flex; justify-content:space-between; padding-top:1.8rem; font-size:0.78rem; color:rgba(247,249,252,0.3); flex-wrap:wrap; gap:1rem;}
+    @media (max-width:880px){.foot-top{grid-template-columns:1fr 1fr; gap:2rem;}}
+    @media (max-width:580px){.foot-email-grid{grid-template-columns:1fr;}}
+
+    .reveal{opacity:0; transform:translateY(32px); transition:opacity .9s var(--ease), transform .9s var(--ease);}
+    .reveal.show{opacity:1; transform:translateY(0);}
+    .reveal-stagger > *{transition-delay:calc(var(--i, 0) * 90ms);}
+
+    .totop{
+      position:fixed; bottom:2rem; right:2rem; z-index:90;
+      width:48px; height:48px; border-radius:50%;
+      background:var(--ink); color:var(--foam);
+      display:flex; align-items:center; justify-content:center;
+      opacity:0; pointer-events:none; transform:translateY(12px);
+      transition:opacity .3s, transform .3s; cursor:pointer; border:none;
+      box-shadow:0 8px 24px rgba(0,0,0,0.15);
+    }
+    .totop.show{opacity:1; pointer-events:auto; transform:translateY(0);}
+    .totop svg{width:18px; height:18px;}
+  </style>
+</head>
+<body>
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-brand">
+    <img src="assets/logo_white.png" alt="Blue Ocean Chemicals" class="nav-logo nav-logo-white">
+    <img src="assets/logo.png" alt="Blue Ocean Chemicals" class="nav-logo nav-logo-color">
+  </a>
+  <div class="nav-links" id="navLinks">
+    <a href="#capabilities">Capabilities</a>
+    <a href="#products">Products</a>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact" class="nav-cta">Request Quote</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="ph" id="heroPh">
+    <img data-src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?fm=jpg&q=80&w=2400&auto=format&fit=crop" alt="Industrial water treatment facility">
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="wrap hero-inner">
+    <div class="eyebrow hero-eyebrow">Chemical Manufacturing · Ajman, UAE</div>
+    <h1>Empowering performance<br><em>through water</em><br>innovation.</h1>
+    <p class="lede">Delivering sustainable water solutions that protect, perform, and empower industries — Reverse Osmosis, Chilled Water, Cooling Water, Boiler, Swimming Pool and Portable Water treatment chemistry, manufactured to a single, consistent standard.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">
+        Request quote
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#capabilities" class="btn btn-ghost">Explore our capabilities</a>
+    </div>
+  </div>
+  <div class="hero-scroll-cue"><span class="line"></span>Scroll</div>
+</header>
+
+<!-- STATEMENT -->
+<section class="statement">
+  <div class="wrap">
+    <div class="eyebrow">Our approach</div>
+    <blockquote id="statementText" style="margin-top:1.4rem;">
+      At Blue Ocean Chemicals, we are a team of seasoned professionals with a shared vision — to deliver high‑quality, innovative, and sustainable chemical solutions for water treatment. With decades of combined experience across chemical manufacturing, water treatment technologies, and industrial operations, we bring deep industry knowledge and a hands‑on approach to everything we do. From formulation to production, we prioritise quality, safety, and sustainability at every stage.
+    </blockquote>
+    <div class="attrib">— Blue Ocean For Chemicals Manufacturing LLC</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="strip">
+  <div class="strip-track">
+    <span class="strip-item">Chemical Manufacturing</span>
+    <span class="strip-item">Reverse Osmosis</span>
+    <span class="strip-item">Cooling Water Treatment</span>
+    <span class="strip-item">Boiler Water Treatment</span>
+    <span class="strip-item">Chilled Water Treatment</span>
+    <span class="strip-item">Swimming Pool Treatment</span>
+    <span class="strip-item">Portable Water Treatment</span>
+    <span class="strip-item">Manufactured in Ajman, UAE</span>
+    <span class="strip-item">Chemical Manufacturing</span>
+    <span class="strip-item">Reverse Osmosis</span>
+    <span class="strip-item">Cooling Water Treatment</span>
+    <span class="strip-item">Boiler Water Treatment</span>
+    <span class="strip-item">Chilled Water Treatment</span>
+    <span class="strip-item">Swimming Pool Treatment</span>
+    <span class="strip-item">Portable Water Treatment</span>
+    <span class="strip-item">Manufactured in Ajman, UAE</span>
+  </div>
+</div>
+
+<!-- CAPABILITIES SCENES -->
+<section id="capabilities">
+  <div class="scene" data-parallax>
+    <div class="scene-index">01 / 04</div>
+    <div class="ph"><img data-src="assets/RO.png" alt="Reverse Osmosis and desalination plant"></div>
+    <div class="scene-scrim"></div>
+    <div class="wrap scene-inner">
+      <div class="scene-content reveal">
+        <div class="eyebrow on-dark">Reverse Osmosis &amp; Desalination</div>
+        <h3>Prevent scale, corrosion and biofouling — at the membrane.</h3>
+        <p>Antiscalants, membrane cleaners and biocides formulated to maximise rejection rates and protect membrane life, even on demanding desalination feed water.</p>
+        <div class="scene-tags"><span class="scene-tag">In‑house R&amp;D</span><span class="scene-tag">Batch QC</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="scene align-right" data-parallax>
+    <div class="scene-index">02 / 04</div>
+    <div class="ph"><img data-src="assets/cooling.png" alt="Cooling tower"></div>
+    <div class="scene-scrim"></div>
+    <div class="wrap scene-inner">
+      <div class="scene-content reveal">
+        <div class="eyebrow on-dark">Cooling Towers</div>
+        <h3>Maximise thermal efficiency, minimise fouling.</h3>
+        <p>Corrosion inhibitors, scale control and microbiocides for open recirculating systems — calibrated to local water hardness and cycles of concentration.</p>
+        <div class="scene-tags"><span class="scene-tag">Scale Control</span><span class="scene-tag">Biofouling Prevention</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="scene" data-parallax>
+    <div class="scene-index">03 / 04</div>
+    <div class="ph"><img data-src="assets/chiller.png" alt="Boiler room pipes and gauges"></div>
+    <div class="scene-scrim"></div>
+    <div class="wrap scene-inner">
+      <div class="scene-content reveal">
+        <div class="eyebrow on-dark">Boilers</div>
+        <h3>Pure steam, corrosion‑free operation, optimal fuel economy.</h3>
+        <p>Oxygen scavengers, alkalinity builders and sludge conditioners designed for steam and hot‑water boiler systems operating under continuous load.</p>
+        <div class="scene-tags"><span class="scene-tag">Steam Purity</span><span class="scene-tag">Fuel Economy</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="scene align-right" data-parallax>
+    <div class="scene-index">04 / 04</div>
+    <div class="ph"><img data-src="https://images.unsplash.com/photo-1713991767449-6d3f6df573b7?fm=jpg&q=80&w=2400&auto=format&fit=crop" alt="Swimming pool clear water"></div>
+    <div class="scene-scrim"></div>
+    <div class="wrap scene-inner">
+      <div class="scene-content reveal">
+        <div class="eyebrow on-dark">Swimming Pools</div>
+        <h3>Crystal clear, safe, and always guest‑ready.</h3>
+        <p>Sanitisers, pH balancers, flocculants and algaecides for commercial and residential pools, formulated for UAE climate and bather load.</p>
+        <div class="scene-tags"><span class="scene-tag">Water Clarity</span><span class="scene-tag">Bather Safety</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="sec-pad" id="products">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Product range</div>
+      <h2>Six treatment lines, one formulation standard.</h2>
+      <p>Each line is engineered for the chemistry of the system it protects — documented specifications, not improvised mixes.</p>
+    </div>
+    <div class="segments reveal-stagger">
+      <div class="segment reveal" style="--i:0"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/><circle cx="12" cy="12" r="3"/></svg></div><h4>Reverse Osmosis</h4><p>Antiscalants, membrane cleaners and biocides formulated to protect membrane life and maintain rejection rates.</p><span class="tag">Line 01 · Membrane Chemistry</span></div>
+      <div class="segment reveal" style="--i:1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="4" width="14" height="16" rx="1.5"/><path d="M9 9h6M9 13h6M9 17h6"/></svg></div><h4>Chilled Water Treatment</h4><p>Closed‑loop corrosion and scale inhibitors that protect chiller barrels, plate exchangers and condenser tubing.</p><span class="tag">Line 02 · Closed Loop Treatment</span></div>
+      <div class="segment reveal" style="--i:2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 6h14M5 12h14M5 18h14" stroke-linecap="round"/></svg></div><h4>Cooling Water Treatment</h4><p>Corrosion inhibitors, scale control and microbiocides for open recirculating systems — calibrated to local water hardness.</p><span class="tag">Line 03 · Open Loop Treatment</span></div>
+      <div class="segment reveal" style="--i:3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c2 3 4 5.5 4 8.5a4 4 0 0 1-8 0C8 8.5 10 6 12 3z"/></svg></div><h4>Boiler Water Treatment</h4><p>Oxygen scavengers, alkalinity builders and sludge conditioners designed for steam and hot‑water boiler systems.</p><span class="tag">Line 04 · Steam Chemistry</span></div>
+      <div class="segment reveal" style="--i:4"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 16c2-1 4-1 6 0s4 1 6 0 4-1 6 0"/><path d="M3 20c2-1 4-1 6 0s4 1 6 0 4-1 6 0"/><circle cx="12" cy="7" r="3.5"/></svg></div><h4>Swimming Pool Treatment</h4><p>Sanitisers, pH balancers, flocculants and algaecides for commercial and residential pools, formulated for UAE climate.</p><span class="tag">Line 05 · Pool Sanitation</span></div>
+      <div class="segment reveal" style="--i:5"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21c4-4 7-7.5 7-11a7 7 0 1 0-14 0c0 3.5 3 7 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg></div><h4>Portable Water Treatment</h4><p>Disinfection and conditioning chemistry for potable supply systems — formulated to meet drinking water standards.</p><span class="tag">Line 06 · Potable Water Chemistry</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec-pad" id="services" style="background:var(--sky-dim);">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Beyond the chemistry</div>
+      <h2>Full-service support, not just product supply.</h2>
+      <p>From flushing a new system to ongoing HSE compliance, our team supports the full lifecycle of your water treatment program.</p>
+    </div>
+    <div class="industries reveal-stagger">
+      <div class="industry-card reveal" style="--i:0"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16M4 4v16M4 4l16 16M20 4v16M20 4L4 20"/></svg></div><h4>Flushing &amp; Passivation</h4><p>Clean, efficient heat exchange and system protection from day one — new systems flushed and passivated before handover.</p></div>
+      <div class="industry-card reveal" style="--i:1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4z"/><path d="M9 12l2 2 4-4"/></svg></div><h4>HSE Consultancy</h4><p>Corrosion-free operations and optimal fuel economy underpinned by sound health, safety and environmental practice.</p></div>
+      <div class="industry-card reveal" style="--i:2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div><h4>In‑house Chemical Manufacturing</h4><p>Assured quality, faster supply, and application‑specific formulations — every product manufactured at our Ajman facility.</p></div>
+      <div class="industry-card reveal" style="--i:3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></div><h4>Turnkey Water Treatment Contracts</h4><p>Complete service including dosing systems, monitoring, and reporting — a single point of accountability for your treatment program.</p></div>
+      <div class="industry-card reveal" style="--i:4"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div><h4>Technical Expertise</h4><p>Backed by skilled engineers and industry knowledge across sectors — from hospitality to heavy industry.</p></div>
+      <div class="industry-card reveal" style="--i:5"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/><circle cx="12" cy="12" r="6"/></svg></div><h4>Performance Guarantees</h4><p>We commit to measurable improvements in water quality and system reliability — outcomes, not just deliveries.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS FLOW -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow on-dark">How a batch reaches your plant</div>
+      <h2>From raw chemistry to certified delivery.</h2>
+      <p>One traceable line, from formulation through to the dosing point at your facility. Scroll to trace a batch.</p>
+    </div>
+    <div class="flow-svg-wrap reveal" id="flowWrap">
+      <svg class="flow-svg" id="flowSvg" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid meet">
+        <path class="flow-path" d="M40,180 C140,180 140,80 240,80 C340,80 340,180 440,180 C540,180 540,280 640,280 C740,280 740,80 840,80 C940,80 940,180 1040,180 C1090,180 1090,180 1160,180"/>
+        <path class="flow-path-anim" id="flowAnim" d="M40,180 C140,180 140,80 240,80 C340,80 340,180 440,180 C540,180 540,280 640,280 C740,280 740,80 840,80 C940,80 940,180 1040,180 C1090,180 1090,180 1160,180"/>
+        <g class="flow-node-group"><circle class="flow-node n0" cx="40" cy="180" r="8"/><circle class="flow-dot n0" cx="40" cy="180" r="3"/><text class="flow-label n0" x="40" y="210" text-anchor="middle">Raw Material</text><text class="flow-sub n0" x="40" y="226" text-anchor="middle">Intake &amp; QC</text></g>
+        <g class="flow-node-group"><circle class="flow-node n1" cx="240" cy="80" r="8"/><circle class="flow-dot n1" cx="240" cy="80" r="3"/><text class="flow-label n1" x="240" y="55" text-anchor="middle">Formulation</text><text class="flow-sub n1" x="240" y="110" text-anchor="middle">Batch mixing</text></g>
+        <g class="flow-node-group"><circle class="flow-node n2" cx="440" cy="180" r="8"/><circle class="flow-dot n2" cx="440" cy="180" r="3"/><text class="flow-label n2" x="440" y="210" text-anchor="middle">Lab Testing</text><text class="flow-sub n2" x="440" y="226" text-anchor="middle">Spec verification</text></g>
+        <g class="flow-node-group"><circle class="flow-node n3" cx="640" cy="280" r="8"/><circle class="flow-dot n3" cx="640" cy="280" r="3"/><text class="flow-label n3" x="640" y="310" text-anchor="middle">Fill &amp; Label</text><text class="flow-sub n3" x="640" y="326" text-anchor="middle">Batch coded</text></g>
+        <g class="flow-node-group"><circle class="flow-node n4" cx="840" cy="80" r="8"/><circle class="flow-dot n4" cx="840" cy="80" r="3"/><text class="flow-label n4" x="840" y="55" text-anchor="middle">Warehouse</text><text class="flow-sub n4" x="840" y="110" text-anchor="middle">Ajman Industrial 2</text></g>
+        <g class="flow-node-group"><circle class="flow-node n5" cx="1040" cy="180" r="8"/><circle class="flow-dot n5" cx="1040" cy="180" r="3"/><text class="flow-label n5" x="1040" y="210" text-anchor="middle">Dispatch</text><text class="flow-sub n5" x="1040" y="226" text-anchor="middle">UAE‑wide delivery</text></g>
+        <g class="flow-node-group"><circle class="flow-node n6" cx="1160" cy="180" r="8" fill="#189BCE" stroke="#189BCE"/><text class="flow-label n6" x="1160" y="150" text-anchor="middle">Your Plant</text></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="ticker-section">
+  <div class="wrap">
+    <div class="ticker-grid reveal-stagger">
+      <div class="ticker-cell reveal" style="--i:0"><div class="v">6<small>treatment lines</small></div><div class="l">Reverse Osmosis, Chilled, Cooling, Boiler, Pool and Portable Water</div></div>
+      <div class="ticker-cell reveal" style="--i:1"><div class="v">100<small>% UAE manufactured</small></div><div class="l">Formulated and batched at our Ajman facility</div></div>
+      <div class="ticker-cell reveal" style="--i:2"><div class="v">48<small>hr dispatch</small></div><div class="l">Standard lead time for stocked formulations across the UAE</div></div>
+      <div class="ticker-cell reveal" style="--i:3"><div class="v">24<small>/7 technical support</small></div><div class="l">Direct access to our team for dosing and equipment issues</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="sec-pad" id="why">
+  <div class="wrap">
+    <div class="sec-head reveal"><div class="eyebrow">Why plants choose Blue Ocean</div><h2>Manufactured, not repackaged.</h2></div>
+    <div class="why-grid">
+      <div class="why-list reveal-stagger">
+        <div class="why-item reveal" style="--i:0"><div class="why-index">01</div><div><h4>In‑house formulation</h4><p>Chemistry is developed and batched at our Ajman facility — full control over raw material sourcing and dosing concentration, batch to batch.</p></div></div>
+        <div class="why-item reveal" style="--i:1"><div class="why-index">02</div><div><h4>System‑specific dosing</h4><p>Our technical team reviews your feed water profile and system design before recommending a treatment program — not a generic product line.</p></div></div>
+        <div class="why-item reveal" style="--i:2"><div class="why-index">03</div><div><h4>Consistent supply</h4><p>Stocked formulations dispatch within 48 hours across the UAE, with bulk and scheduled delivery arrangements for facilities management contracts.</p></div></div>
+        <div class="why-item reveal" style="--i:3"><div class="why-index">04</div><div><h4>On‑site technical support</h4><p>Our team troubleshoots dosing issues, water test results and equipment fouling directly with your facilities or maintenance staff.</p></div></div>
+      </div>
+      <div class="why-visual reveal">
+        <div class="ph"><img data-src="https://images.unsplash.com/photo-1578776349090-de61da00ff1a?fm=jpg&q=80&w=2000&auto=format&fit=crop" alt=""></div>
+        <div class="why-visual-scrim"></div>
+        <div class="why-visual-content"><div class="eyebrow on-dark" style="margin-bottom:1rem;">Facility</div><h4>Unit 12, Industrial Area 2 — Ajman, UAE.</h4><p>A dedicated manufacturing and blending facility supplying Reverse Osmosis, Cooling Water, Chilled Water, Boiler, Swimming Pool and Portable Water treatment chemicals across the UAE.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="sec-pad" id="industries">
+  <div class="wrap">
+    <div class="sec-head reveal"><div class="eyebrow">Who we supply</div><h2>Built for facilities that can't afford downtime.</h2></div>
+    <div class="industries reveal-stagger">
+      <div class="industry-card reveal" style="--i:0"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-6h6v6"/></svg></div><h4>Hotels &amp; Hospitality</h4><p>Pool, chilled water and boiler treatment for resorts and hotel groups.</p></div>
+      <div class="industry-card reveal" style="--i:1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V9l8-6 8 6v12M9 21v-5h6v5"/></svg></div><h4>Real Estate &amp; FM</h4><p>Scheduled cooling water and chilled water programs for property managers.</p></div>
+      <div class="industry-card reveal" style="--i:2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V4h8v3"/></svg></div><h4>Industrial &amp; Manufacturing</h4><p>Boiler and Reverse Osmosis process water chemistry for production facilities.</p></div>
+      <div class="industry-card reveal" style="--i:3"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg></div><h4>Pool Contractors</h4><p>Bulk pool chemical supply for maintenance and contracting companies.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="sec-pad">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <div class="ph"><img data-src="https://images.unsplash.com/photo-1634921490820-4f6df705223c?fm=jpg&q=80&w=2200&auto=format&fit=crop" alt=""></div>
+      <div class="cta-band-scrim"></div>
+      <h3>Tell us about your system — we'll recommend the right dosing program.</h3>
+      <a href="#contact" class="btn btn-primary">Start a conversation</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec-pad" id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal"><div class="eyebrow">Get in touch</div><h2>Request a quote or technical consultation.</h2><p>Send your system details and our technical team will respond with a recommended treatment program, typically within one business day.</p></div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-info-item"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 13-9 13s-9-7-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="lbl">Facility Address</div><div class="val">Unit No. 12, Industrial Area 2, Ajman, United Arab Emirates</div></div></div>
+        <div class="contact-info-item"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><div class="lbl">Phone</div><div class="val"><a href="tel:+971561154831">+971 56 115 4831</a> <span style="color:var(--ink-faint);font-weight:400;font-size:0.85rem;">(Sales)</span><br><a href="tel:+971561154892">+971 56 115 4892</a> <span style="color:var(--ink-faint);font-weight:400;font-size:0.85rem;">(Accounts)</span></div></div></div>
+        <div class="contact-info-item"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg></div><div><div class="lbl">Email</div>
+          <div class="contact-email-list">
+            <a href="mailto:sales@blueoceanchemical.com">sales@blueoceanchemical.com</a>
+            <a href="mailto:info@blueoceanchemical.com">info@blueoceanchemical.com</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="form-card reveal">
+        <form id="contactForm" autocomplete="off">
+          <input type="text" name="company_website" class="field-honeypot" tabindex="-1" autocomplete="off">
+          <div class="form-row"><div class="field"><label for="fname">Full name</label><input type="text" id="fname" name="name" required placeholder="Your name"></div><div class="field"><label for="fcompany">Company</label><input type="text" id="fcompany" name="company" placeholder="Company name"></div></div>
+          <div class="form-row"><div class="field"><label for="femail">Email</label><input type="email" id="femail" name="email" required placeholder="you@company.com"></div><div class="field"><label for="fphone">Phone</label><input type="tel" id="fphone" name="phone" placeholder="+971"></div></div>
+          <div class="field"><label for="fsystem">System type</label><select id="fsystem" name="system"><option value="">Select system type</option><option value="Reverse Osmosis">Reverse Osmosis</option><option value="Chilled Water Treatment">Chilled Water Treatment</option><option value="Cooling Water Treatment">Cooling Water Treatment</option><option value="Boiler Water Treatment">Boiler Water Treatment</option><option value="Swimming Pool Treatment">Swimming Pool Treatment</option><option value="Portable Water Treatment">Portable Water Treatment</option><option value="Other">Other / Not sure</option></select></div>
+          <div class="field"><label for="fmessage">Message</label><textarea id="fmessage" name="message" required placeholder="Tell us about your system, capacity, and current treatment challenges..."></textarea></div>
+          <button type="submit" class="btn btn-primary form-submit" id="submitBtn">Send request <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <div class="form-status" id="formStatus"></div>
+          <p class="form-note">We typically respond within one business day.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-col"><div class="foot-brand"><img src="assets/logo_white.png" alt="Blue Ocean Chemicals"></div><p>Chemical manufacturer based in Ajman, United Arab Emirates — water treatment technologies for Reverse Osmosis, Chilled Water, Cooling Water, Boiler, Swimming Pool and Portable Water systems.</p></div>
+      <div class="foot-col"><h5>Products</h5><a href="#products">Reverse Osmosis</a><a href="#products">Chilled Water Treatment</a><a href="#products">Cooling Water Treatment</a><a href="#products">Boiler Water Treatment</a><a href="#products">Swimming Pool Treatment</a><a href="#products">Portable Water Treatment</a></div>
+      <div class="foot-col"><h5>Company</h5><a href="#capabilities">Capabilities</a><a href="#services">Services</a><a href="#process">Our Process</a><a href="#why">Why Blue Ocean</a><a href="#contact">Contact</a></div>
+      <div class="foot-col"><h5>Contact</h5><p>Unit 12, Industrial Area 2<br>Ajman, United Arab Emirates</p>
+        <a href="tel:+971561154831">+971 56 115 4831</a>
+        <div class="foot-email-grid">
+          <a href="mailto:info@blueoceanchemical.com">info@blueoceanchemical.com</a>
+          <a href="mailto:sales@blueoceanchemical.com">sales@blueoceanchemical.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="year"></span> Blue Ocean For Chemicals Manufacturing LLC. All rights reserved.</span><span>Ajman, United Arab Emirates</span></div>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script>
+  (function(){
+    const lazyImgs = document.querySelectorAll('.ph img[data-src]');
+    const imgObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          const src = img.getAttribute('data-src');
+          img.onload = () => img.classList.add('loaded');
+          img.onerror = () => img.closest('.ph').classList.add('fallback');
+          img.src = src;
+          imgObserver.unobserve(img);
+        }
+      });
+    }, { rootMargin: '200px 0px' });
+    lazyImgs.forEach(img => imgObserver.observe(img));
+
+    const nav = document.getElementById('nav');
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    const totop = document.getElementById('totop');
+
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+      totop.classList.toggle('show', window.scrollY > 800);
+    }, { passive: true });
+
+    navToggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open);
+    });
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', false);
+    }));
+    totop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    const statementEl = document.getElementById('statementText');
+    const text = statementEl.textContent.trim();
+    const words = text.split(/\s+/);
+    statementEl.innerHTML = words.map(w => `<span class="word">${w}</span>`).join(' ');
+    const wordSpans = statementEl.querySelectorAll('.word');
+    const wordObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          wordSpans.forEach((s, i) => setTimeout(() => s.classList.add('lit'), i * 28));
+          wordObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    wordObserver.observe(statementEl);
+
+    const parallaxImgs = document.querySelectorAll('.scene[data-parallax] .ph img, .hero .ph img');
+    let ticking = false;
+    function updateParallax() {
+      parallaxImgs.forEach(img => {
+        const rect = img.closest('.ph').getBoundingClientRect();
+        const vh = window.innerHeight;
+        if (rect.bottom < 0 || rect.top > vh) return;
+        const progress = (vh - rect.top) / (vh + rect.height);
+        const shift = (progress - 0.5) * 50;
+        img.style.transform = `scale(1.15) translateY(${shift}px)`;
+      });
+      ticking = false;
+    }
+    window.addEventListener('scroll', () => { if (!ticking) { requestAnimationFrame(updateParallax); ticking = true; } }, { passive: true });
+    window.addEventListener('resize', updateParallax);
+    updateParallax();
+
+    const flowWrap = document.getElementById('flowWrap');
+    const flowAnim = document.getElementById('flowAnim');
+    let flowPlayed = false;
+    const flowObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !flowPlayed) {
+          flowPlayed = true;
+          flowAnim.classList.add('run');
+          const nodeOrder = ['n0','n1','n2','n3','n4','n5','n6'];
+          nodeOrder.forEach((cls, i) => {
+            setTimeout(() => {
+              document.querySelectorAll('.' + cls).forEach(el => el.classList.add('show'));
+            }, 350 + i * 340);
+          });
+          flowObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.35 });
+    if (flowWrap) flowObserver.observe(flowWrap);
+
+    const contactForm = document.getElementById('contactForm');
+    const formStatus = document.getElementById('formStatus');
+    const submitBtn = document.getElementById('submitBtn');
+
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const honeypot = contactForm.querySelector('[name="company_website"]').value;
+      if (honeypot) return;
+
+      const data = new FormData(contactForm);
+      const payload = Object.fromEntries(data.entries());
+
+      formStatus.className = 'form-status';
+      submitBtn.setAttribute('disabled', 'true');
+      submitBtn.style.opacity = '0.6';
+
+      const subject = encodeURIComponent('Quote Request — ' + (payload.system || 'General Enquiry'));
+      const body = encodeURIComponent(`Name: ${payload.name}\nCompany: ${payload.company}\nEmail: ${payload.email}\nPhone: ${payload.phone}\nSystem: ${payload.system}\n\nMessage:\n${payload.message}`);
+      window.location.href = `mailto:sales@blueoceanchemical.com?subject=${subject}&body=${body}`;
+
+      formStatus.textContent = "Opening your email client to send this request to sales@blueoceanchemical.com...";
+      formStatus.classList.add('success');
+      submitBtn.removeAttribute('disabled');
+      submitBtn.style.opacity = '1';
+    });
+  })();
+</script>
+</body>
+</html>
