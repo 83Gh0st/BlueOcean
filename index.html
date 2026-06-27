@@ -146,18 +146,27 @@
     .nav.scrolled .nav-links a:hover{color:var(--deep);}
     .nav-links a:hover::after{right:0;}
 
+    /* Request a Quote nav button — self-contained, sized to sit flush in the nav row */
     .nav-cta{
-      font-family:var(--body); font-size:0.9rem; font-weight:600;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      font-family:var(--body); font-size:0.8rem; font-weight:600; line-height:1;
       background:linear-gradient(135deg, #E2C07F 0%, var(--brass) 55%, #B8924A 100%);
       color:var(--ink) !important;
-      padding:0.7rem 1.6rem; border-radius:40px;
-      margin-left:1rem;
-      transition:background .25s, transform .25s, box-shadow .3s;
+      padding:0.6rem 1.3rem;
+      border-radius:999px;
+      margin-left:0.4rem;
+      transition:background .25s, transform .2s, box-shadow .3s;
       white-space:nowrap; letter-spacing:0.02em;
-      box-shadow:0 6px 20px rgba(201,165,92,0.35), inset 0 1px 0 rgba(255,255,255,0.4);
+      box-shadow:0 2px 8px rgba(201,165,92,0.28);
     }
     .nav-cta::after{display:none;}
-    .nav-cta:hover{background:linear-gradient(135deg, #EACB91 0%, #DAB876 55%, #C49F5C 100%); transform:translateY(-2px); box-shadow:0 12px 30px rgba(201,165,92,0.45), inset 0 1px 0 rgba(255,255,255,0.5);}
+    .nav-cta:hover{
+      background:linear-gradient(135deg, #EACB91 0%, #DAB876 55%, #C49F5C 100%);
+      transform:translateY(-1px);
+      box-shadow:0 6px 16px rgba(201,165,92,0.32);
+    }
     .nav.scrolled .nav-cta{color:var(--ink) !important;}
 
     .nav-toggle{display:none; background:none; border:none; cursor:pointer; padding:0.4rem; z-index:101;}
@@ -175,7 +184,7 @@
       .nav-links.open{transform:translateX(0);}
       .nav-links a{color:rgba(247,249,252,0.8); font-size:1.1rem;}
       .nav-links a:hover{color:var(--white);}
-      .nav-cta{order:2; align-self:flex-start;}
+      .nav-cta{order:2; align-self:flex-start; margin-left:0; margin-top:0.6rem;}
       .nav-toggle{display:block;}
     }
 
@@ -189,8 +198,8 @@
     .hero-scrim{
       position:absolute; inset:0; z-index:1;
       background:
-        linear-gradient(180deg, rgba(7,13,46,0.60) 0%, rgba(7,13,46,0.30) 40%, rgba(7,13,46,0.85) 100%),
-        linear-gradient(90deg, rgba(7,13,46,0.60) 0%, transparent 60%);
+        linear-gradient(180deg, rgba(7,13,46,0.80) 0%, rgba(15,23,72,0.62) 40%, rgba(7,13,46,0.93) 100%),
+        linear-gradient(90deg, rgba(7,13,46,0.80) 0%, rgba(7,13,46,0.30) 55%, transparent 85%);
     }
     .hero-inner{position:relative; z-index:2; width:100%; padding-bottom:6rem; padding-top:10rem;}
     .hero-eyebrow{color:var(--cyan); margin-bottom:1.6rem;}
